@@ -1,0 +1,19 @@
+img#hug {
+    border-radius: 15px;
+    max-width: 445px;
+}
+img#hug-loaded {
+    border-radius: 15px;
+    max-width: 445px;
+    -webkit-animation: fade-in 3s ease-in-out; /* Safari 4+ */
+    -moz-animation: fade-in 3s ease-in-out; /* Fx 5+ */
+    -o-animation: fade-in 3s ease-in-out; /* Opera 12+ */
+    animation: fade-in 3s ease-in-out; /* IE 10+, Fx 29+ */
+}
+/*плавная загрузка страниц*/
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+ 
+
