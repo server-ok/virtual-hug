@@ -6,5 +6,6 @@ fetch(url)
   })
 .then((data) => {
     elem.src = data.url;
+    elem.alt = data.url;
   })
 .then(elem.id = 'hug-loaded');
